@@ -1,12 +1,9 @@
-import React, { Component} from "react";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
-import BootstrapNavbar from "./components/Navbar"
+import React from "react";
+import Example from "./components/Example";
 
-function App() {
+const App = () => {
   return (
-    <Component>
-      <BootstrapNavbar/>
-    </Component>
+    <div><Example/></div>
   );
 }
 
